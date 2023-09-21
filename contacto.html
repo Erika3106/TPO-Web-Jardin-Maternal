@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon/winnie.ico"
+    type="image/x-icon">
+   
+
+
+    <link rel="stylesheet" href="style.css">
+    <title>Mi primer página web</title>
+</head>
+<body>
+    <header>
+        <h1><i>Jardin Maternal Mermelada</i></h1> <!-----centrar titulo-->
+     </header>
+
+     <nav>
+        <a href="index.html">Home</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="ubicacion.html">Ubicacion</a>
+        <a href="conocenos.html">Conocenos</a>
+        
+    </nav>
+    <br><br><br>
+
+    <b>Directora Srta. Andrea Barroso</b>
+    <br><br>
+    <img src="./imagenes/directora.jpg" alt="directora" width="100"> <br><br>
+    <a href="https://wa.me/2615929001">Contactar por WhatsApp</a><br>
+    <br> 
+    <a href="mailto:jardinmaternalmermelada@gmail.com">Enviar correo</a>
+
+    <h3>Quiero conocerte!!!</h3>
+    <h3>Formulario de Pre - inscripción</h3>
+   
+    <form action="/action_page.php">
+    <fieldset>
+      <legend> <h4>Datos del niño/a</h4></legend>  
+        <form method="post">
+            <p> <label for="nombre completo">Nombre completo:</label>
+                <input type="text" name="nombre completo" id="nombre completo" placeholder=" Nombre y apellido" required autocomplete="off"> </p>
+    
+            <p> <label for="edad">Edad:</label>
+                <input type="number" name="edad" id="edad" placeholder="Ingrese la edad"></p>
+            <p> <label for="fn">Fecha de Nacimiento:</label>
+                <input type="text" name="fn" id="fn" placeholder="Fecha de nacimiento"></p>   
+            <p> <label for="contacto">Numero teléfono:</label>
+                <input type="number" name="contacto" id="contacto" placeholder="Contacto de un adulto"></p>     
+            
+                <input type="submit"  value="Enviar"> 
+    </fieldset>
+    
+            
+    <fieldset>
+     <legend> <h4>Horario a convenir</h4></legend> 
+            <p> <input type="radio" name="opcion" value="mañana"> De 8hs. a 12hs. </p>
+            <p> <input type="radio" name="opcion" value="mediodia"> De 11hs. a 14hs.</p>
+            <p> <input type="radio" name="opcion" value="siesta"> De 13hs. a 16hs.</p>
+            <p> <input type="radio" name="opcion" value="tarde"> De 16hs. a 19hs.</p>
+    
+    <input type="submit"  value="Enviar"> 
+    
+    </fieldset>
+    </form>
+
+    <h4>Cuentanos más sobre el niño/a:</h4><textarea name="comentario" rows="10" cols="50°"> </textarea>
+    
+   
+   
+   
+</body>
+
+<footer>
+    <p>Jardin Mermelada</p>
+</footer>

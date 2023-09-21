@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2? family= Dancing+Script:wght@500 & family= Inconsolata:wght@200 & display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(148, 49, 126);
+    width: 100;
+
+}
+
+a{
+    text-decoration: none;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li{
+    margin: 10px;
+}
+img{
+    width: 300px;
+    
+}
+
+h1{
+    font-size: 34px;
+    color: rgb(252, 245, 238);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+h2{
+    font-size: 20px;
+    color: rgb(19, 17, 15);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    font-size: 18px;
+    color: rgba(3, 0, 5, 0.925);
+
+}
+
+.presentacion{
+    font-size: 20px;
+    color: rgb(19, 17, 15);
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Inconsolata', monospace;
+}
+.contenido{
+    display: flex ;
+    margin: 10px 0 10px 0;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(250, 181, 181);
+}
+
+.secciones{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secciones img{
+    border-radius: 100%;
+}
+
+.secciones p{
+    font-size: 14px;
+}
+
+
+footer{
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 75px;
+}
+
