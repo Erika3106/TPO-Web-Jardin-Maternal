@@ -59,57 +59,68 @@ h2{
     color: rgb(19, 17, 15);
     font-family: 'Dancing Script', cursive;
     font-family:'Inconsolata'monospace;
-    
+    margin-top: 50px;
+    margin-bottom:30px;
 }
 .contenido{
-    display: flex ;
-    flex-wrap: wrap;
-    overflow:scroll;
-    width:auto;
-    height:500px;
-    flex-direction:row;
-    justify-content: space-between;
-    /* margin:20px; */
-    
-    background-color: rgb(247, 247, 135);
+    display: flex ; 
+    width:100%;
+    animation: contenido 30s infinite alternate linear;
+    margin-top: 40px;
+    margin-bottom: 20px;
 } 
 .contenido-item {
-    width:100%;
-    height:100%;
-    flex:1 0 auto;
-    margin: 0px 5px 0px;
-    padding:40px;
-    justify-content: center;
-    background-color: aqua;
-    align-items: center; */
+    flex:0 0 100%;
+    text-align:center;
+    padding:20px;
+    box-sizing: border-box;
+   
 }
 
-.contenido-item img {
+img {
+    max-width: 100%;
+    max-height: 400px;
+    width: auto;
     border-radius: 100%;
-    margin:5px;
     box-shadow: 5px 5px 25px;
-    transition: all 25 linear;
-    
+    margin-bottom: 10px;
 }
+    
 
-.contenido-item h2 {
+h2 {
     font-size: 20px;
     color: rgb(19, 17, 15);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: 5px;
-
+    margin-top: 30px;
+    margin-bottom: 5px;
 }
 
 
-.contenido-item p {
-    font-size: 16px; /* Ajusta el tamaño de fuente según sea necesario */
+p {
+    font-size: 16px; 
     color: rgb(19, 17, 15);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5px;
 }
-
+@keyframes contenido{
+    0% {
+        transform: translateX(0%);
+        animation-timing-function: step-start; 
+      }
+      33.33% {
+        transform: translateX(-100%);
+        animation-timing-function: step-start; 
+      }
+      66.67% {
+        transform: translateX(-200%);
+        animation-timing-function: step-start; 
+      }
+}
+    
 footer{
     width: 100%;
     height: 100%;
+    margin-top: 20px;
     padding: 30px;
     display: flex;
     justify-content: center;
