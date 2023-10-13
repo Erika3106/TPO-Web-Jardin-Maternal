@@ -2,16 +2,15 @@
 header{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    background-color: rgb(148, 49, 126);
+    justify-content: center;
+    background-color: rgb(168, 230, 118);
     width: 100;
-
 }
 
 a{
-    text-decoration: none;
+    text-decoration: none; /* quita la decoración de subrayado en el nav */
 }
-header ul{
+/* header ul{
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -19,22 +18,25 @@ header ul{
 
 header ul li{
     margin: 10px;
-}
+} */
 img{
     width: 300px;
-    
 }
 
 h1{
-    font-size: 34px;
-    color: rgb(252, 245, 238);
+    font-size: 50px;
+    color: rgb(7, 99, 7);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
+    text-align: center;
 }
+
 h2{
     font-size: 20px;
+    text-align: center;
     color: rgb(19, 17, 15);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(-20deg, #d558c8 0%, #24d292 100%);
+    white-space: pre-line;
 }
 p{
     font-size: 18px;
