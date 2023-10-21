@@ -30,35 +30,37 @@
     <br><br>
     <img src="./imagenes/directora.jpg" alt="directora" width="100"> <br><br>
     <a href="https://wa.me/2615929001">Contactar por WhatsApp</a><br>
-    <br>
+    <br> 
     <a href="mailto:jardinmaternalmermelada@gmail.com">Enviar correo</a>
-
+     
     <h3>Quiero conocerte!!!</h3>
     <h3>Formulario de Pre - inscripción</h3>
    
-    <fieldset>
-      <legend> <h4>Datos del niño/a</h4></legend>
-        <form method="post">
-            <label for="nombrecompleto">Nombre completo:</label>
-            <input type="text" name="nombre completo" id="nombrecompleto" placeholder=" Nombre y apellido" required autocomplete="off"> </p>
-            <label for="edad">Edad:</label>
-            <input type="number" name="edad" id="edad">
-            <label for="fn">Fecha de Nacimiento:</label>
-            <input type="date" name="fn" id="fn">
-            <label for="contacto">Numero teléfono:</label>
-            <input type="number" name="contacto" id="contacto">
-                <!-- <input type="submit"  value="Enviar">  -->
-
-      <legend> <h4>Horario a convenir</h4></legend>
-            <input type="radio" name="opcion" value="mañana"> De 8hs. a 12hs.
-            <input type="radio" name="opcion" value="mediodia"> De 11hs. a 14hs.
-            <input type="radio" name="opcion" value="siesta"> De 13hs. a 16hs.
-            <input type="radio" name="opcion" value="tarde"> De 16hs. a 19hs.
-
-    <h4>Cuentanos más sobre el niño/a:</h4><textarea name="comentario" rows="10" cols="50°"> </textarea>
-    <input type="submit"  value="Enviar">
-    </fieldset>
-    </form>
+    <form action="/action_page.php">
+        <fieldset>
+            <legend> <h4>Datos del niño/a</h4></legend>
+              <form method="post">
+                  <label for="nombrecompleto">Nombre completo:</label>
+                  <input type="text" name="nombre completo" id="nombrecompleto" placeholder=" Nombre y apellido" required autocomplete="off"> </p>
+                  <label for="edad">Edad:</label>
+                  <input type="number" min="0" max="6" name="edad" id="edad">
+                  <label for="fn">Fecha Nacimiento:</label>
+                  <input type="date" name="fn" id="fn">
+                  <label for="contacto">Número teléfono:</label>
+                  <input type="text" name="contacto" placeholder=" Número telefónico" id="contacto">
+                  <label for="correo">Correo electrónico:</label>
+                  <input type="email" name="correo" placeholder=" @Correo electrónico" id="correo">
+                      
+            <legend> <h4>Horario a convenir</h4></legend>
+                  <input type="radio" name="opcion" value="mañana"> De 8hs. a 12hs.
+                  <input type="radio" name="opcion" value="mediodia"> De 11hs. a 14hs.
+                  <input type="radio" name="opcion" value="siesta"> De 13hs. a 16hs.
+                  <input type="radio" name="opcion" value="tarde"> De 16hs. a 19hs.
+      
+          <h4>Cuentanos más sobre el niño/a:</h4><textarea name="comentario" rows="8" cols="40°"> </textarea>
+          <input type="submit"  value="Enviar">
+          </fieldset>
+          </form>
 
 
     <footer>
